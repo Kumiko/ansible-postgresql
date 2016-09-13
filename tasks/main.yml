@@ -1,0 +1,11 @@
+# roles/postgresql/tasks/main.yml
+---
+- name: install packages
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+  with_items: "{{ postgresql_pkgs }}"
+  become: yes
+  tags:
+    - postgresql
+    - installation

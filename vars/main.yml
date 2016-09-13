@@ -1,0 +1,4 @@
+# roles/postgresql/vars/main.yml
+---
+postgresql_pkgs:
+  - postgresql
