@@ -8,7 +8,7 @@ Ubuntu repository. The role is tested and designed for use on Ubuntu 16.04.
 ```
 cd roles
 
-git clone https://github.com/hagbarddenstore/ansible-postgresql postgresql
+git clone https://github.com/Kumiko/ansible-postgresql postgresql
 ```
 
 If you're running in a virtual environment (virtualenv, you should!), activate
